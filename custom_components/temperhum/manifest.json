@@ -1,0 +1,11 @@
+{
+  "domain": "temperhum",
+  "name": "TEMPerHUM",
+  "documentation": "https://github.com/rmtsrc/home-assistant-temperhum",
+  "issue_tracker": "https://github.com/rmtsrc/home-assistant-temperhum/issues",
+  "version": "1.0.0",
+  "requirements": ["temperusb==1.6.0"],
+  "codeowners": [],
+  "iot_class": "local_polling",
+  "loggers": ["pyusb", "temperusb"]
+}

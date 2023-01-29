@@ -1,0 +1,15 @@
+name: Validate
+
+on:
+  push:
+  pull_request:
+
+jobs:
+
+  validate-ha:
+    runs-on: "ubuntu-latest"
+    steps:
+      - uses: "actions/checkout@v3"
+
+      - name: HA validation
+        uses: home-assistant/actions/hassfest@master
