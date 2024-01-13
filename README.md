@@ -8,7 +8,8 @@ This Home Assistant integration `temperhum` sensor platform allows you to get th
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg?style=for-the-badge)](https://github.com/hacs/integration)
 
-Add this repos URL to the **Custom repositories** list from the hamburger menu and choose **Integration**. 
+1. Add this repos URL to the **Custom repositories** list from the hamburger menu and choose **Integration**.
+2. Search for **TEMPerHUM** via the HACS UI and click the **Download** button (bottom left)
 
 *[HACS](https://hacs.xyz/) is a third party community store and is not included in Home Assistant out of the box and allows you to easily install, update and remove custom components. If you've not already installed HACS in Home Assistant view [their installation process](https://hacs.xyz/docs/setup/prerequisites).*
 
