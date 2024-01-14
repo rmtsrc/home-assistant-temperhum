@@ -50,6 +50,8 @@ sensor:
     scale:
 ```
 
+After restarting Home Assistant with the new configuration the sensors can be found in the auto generated dashboard or if you've customised it, the sensors can be added by editing your dashboard, adding a new card by entity and searching for **TEMPer**.
+
 Since some of these sensors consistently show higher temperatures the scale and offset values can be used to fine-tune your sensor.
 The calculation follows the formula `scale * sensor value + offset`.
 
